@@ -1,5 +1,7 @@
 # Google Account Login & Signup UI Clone
 
+### Visible clearly on Desktops only because of no Responsiveness
+
 This project is a front-end clone of the Google Account login and signup process using HTML, CSS, and responsive design principles. It's built as a multi-page flow that mimics the user experience of creating and signing into a Google account.
 
 ## 📂 Project Structure
