@@ -1,0 +1,136 @@
+*{
+    background-color: rgb(238, 238, 238);
+    font-family: 'Google Sans', Roboto, Arial, sans-serif;
+}
+.main{
+    width: 74%;
+    height: 55%;
+    position: absolute;
+    top: 20%;
+    left:13%;
+    background-color: white;
+    border-radius: 25px;
+}
+.login{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    left:3%;
+    top: 6%;
+    border-radius: 10px;
+}
+.image{
+    position: absolute;
+    top: 4%;   
+    width: 60px;
+    height: 60px;
+}
+.login h2{
+    font-weight: 400;
+    font-size: 40px;
+    background-color: white;    
+    position: absolute;
+    top: 14%;
+    left: 2%;
+}
+.login p{   
+    position: absolute; 
+    top: 37%;
+    left: 3%;
+    width: 500px;
+    height:50px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
+} 
+.mail{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 330px;
+    position: absolute;
+    top: 11%;
+    left:53%;
+}
+.dob{
+    position: absolute;
+    top: 25%;
+    width: 500px;
+    background-color: white;
+}
+.dob input{
+    background-color: rgb(255, 255, 255);
+    width: 125px;
+    height: 50px;
+    border: 1px solid  rgb(152, 153, 154);
+    border-radius: 5px;   
+    padding-left: 3%;  
+    font-size:17px; 
+    font-weight: 400; 
+    margin-right:1%;
+    margin-left: 1%;
+}
+.dob input:focus{
+    border: 2px solid rgb(11, 87, 208);
+    outline: none;
+}
+.placeholder{
+    background-color: rgb(255, 255, 255);
+    width: 430px;
+    height: 52px;
+    border: 1px solid  rgb(152, 153, 154);
+    border-radius: 5px;   
+    padding-left: 5%;  
+    font-size:17px; 
+    font-weight: 400; 
+    position: absolute;
+    top: 45%;  
+    left: 1%;
+}
+.placeholder:focus{
+    border: 2px solid rgb(11, 87, 208);
+    outline: none;
+}
+.forgot{
+    font-weight: 400;
+    color: rgb(0 99 155);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    top: 65%;
+    left: 1%;
+}
+.buttons{
+    background-color:rgb(11 87 208);
+    width: 75px;
+    height: 40px;
+    position: absolute;
+    right: 6%;
+    bottom: 10%;
+    border-radius: 20px;
+    border-color:  rgb(11 87 208);
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.buttons:hover{
+    background-color: rgb(7, 79, 194);
+}
+.footer{
+    width: 175px;
+    height: 35px;
+    position: absolute;
+    top: 77%;
+    left: 75%;
+    border: none;
+    
+}
+.btn{
+    width: 55px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(230, 227, 227);
+}

@@ -1,0 +1,148 @@
+*{
+    background-color: rgb(238, 238, 238);
+    font-family: 'Google Sans', Roboto, Arial, sans-serif;
+}
+.main{
+    background-color: white;
+    width:74%;
+    height:55%;
+    border-radius: 25px;    
+    position: absolute;
+    top: 20%;
+    left:13%;
+}
+.signin{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    height:385px;
+    position: absolute;
+    left:3%;
+
+}
+.image{
+    position: absolute;
+    top: 7%;
+    left: 2%;
+    width: 60px;
+    height: 60px;
+}
+.signin h2{    
+    font-weight: 400;
+    font-size: 40px;
+    background-color: white;
+    position: absolute;
+    left:3%;
+    top: 18%;
+}
+.signin p{
+    position: absolute;
+    left: 3%;
+    top: 38%;
+    width: 533px;
+    height:100px;
+    font-size: 17px;
+    font-weight: 300;
+    background-color: white;
+    /* font-weight: 400; */
+}
+.mail{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 370px;
+    position: absolute;
+    top: 2%;
+    left:55%;
+}
+.placeholder{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:29%;
+    width: 460px;
+    height: 52px;
+    border: 1px solid  rgb(152, 153, 154);
+    border-radius: 5px;   
+    padding-left: 2%;  
+    font-size:15px;
+}
+.placeholder:focus {
+    border: 2px solid rgb(11, 87, 208);
+    outline: none;
+    
+}
+
+.forgot{
+    background-color: white;
+    position: absolute;
+    top: 45%;
+}
+.para{
+    background-color: rgb(255, 255, 255);
+    width: 460px;
+    position: absolute;
+    top: 57%;
+    font-size: 15px;  
+    font-weight: 300;
+    
+}
+.buttons{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    top: 83%;
+    right: 2%;
+}
+.buttons .create{
+    color: rgb(0 99 155);
+    background-color: white;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    width: 135px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+}
+.create:hover{
+    background-color: aliceblue;
+}   
+.buttons .next{
+    background-color: rgb(11 87 208);
+    width: 70px;
+    height: 35px;
+    position: absolute;
+    left: 81%;
+    border-radius: 20px;
+    border-color:  rgb(11 87 208);
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.next:hover{
+    background-color: rgb(7, 79, 194);
+}
+.footer{
+    width: 175px;
+    height: 35px;
+    position: absolute;
+    top: 77%;
+    left: 75%;
+    border: none;
+    
+}
+.btn{
+    width: 55px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(230, 227, 227);
+}
+a{
+    font-weight: 400;
+    color: rgb(0 99 155);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
