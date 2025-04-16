@@ -3,9 +3,10 @@
 This project is a front-end clone of the Google Account login and signup process using HTML, CSS, and responsive design principles. It's built as a multi-page flow that mimics the user experience of creating and signing into a Google account.
 
 ## 📂 Project Structure
-\`\`\`bash
+```bash
 ├── index.html              # Landing page (sign in)
 ├── gmail_address.html      # Email input page
+├── basic_info.html         # User info input (name, birthday, etc.)
 ├── password.html           # Password entry page
 ├── verify_code.html        # Code verification screen
 ├── not_robot.html          # reCAPTCHA-like verification
@@ -13,11 +14,10 @@ This project is a front-end clone of the Google Account login and signup process
 ├── Google_login.html       # Alternate login UI
 ├── Google_Signup.css       # CSS for signup flow
 ├── Google_Login.css        # CSS for login flow
-├── Style.css               # General styling
-├── basic_info.html         # User info input (name, birthday, etc.)
-├── basic_info.css          # Styling for basic info
+── basic_info.css          # Styling for basic info
+
 └── assets/                 # (If added) for images, fonts, etc.
-\`\`\`
+
 ## 🎯 Features
 ✅ Multi-page account signup simulation
 
